@@ -1,0 +1,51 @@
+.movie-container{
+    width: 100%;
+    height: auto;
+    padding: 8%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #101321;
+}
+.card{
+    width: 250px;
+    height: 330px;
+    background-color:#263e60 ;
+}
+.card-image{
+   width: 250px;
+   height: 250px;
+}
+.card-body{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between;
+}
+.star-container{
+    display: flex;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2%;
+}
+ a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-text h5{
+    color: #ffffff;
+    font-size: 14px;
+}
+.checked {
+    color: orange;
+  }
+  .play-btn{
+    color: #1DBDBD;
+    font-size: 50px;
+  }

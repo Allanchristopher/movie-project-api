@@ -1,0 +1,71 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: #263e60;
+  display: flex;
+  align-items: flex-start;
+}
+.login-icon {
+  width: 80px;
+  height: 80px;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: #101321;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  width: 683px;
+  height: 418px;
+  background: #FFFFFF;
+border-radius: 16px;
+padding: 2%;
+display: flex;
+flex-direction: column;
+}
+.signin-heading p{
+    text-align: left;
+    color: #505050;
+    font-size: 16px;
+    
+}
+.signin-heading p span{
+    color: #28261F;    
+    font-size: 48px;
+}
+.form{
+    width: 100%;
+    height: 100%;
+}
+.form-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form-input{
+    width: 618px;
+height: 64px;
+border: 1px solid #505050;
+border-radius: 16px;
+font-weight: 400;
+font-size: 20px;
+padding: 20px;
+}
+.form-button{
+    width: 618px;
+height: 64px;
+background: #FF7D65;
+border-radius: 16px;
+border: none;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 36px;
+}
